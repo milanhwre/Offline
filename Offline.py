@@ -19,7 +19,7 @@ def get_unique_id():
 def check_permission(unique_key):
     while True:
         try:
-            response = requests.get('https://github.com/ayushking420/APPROVAL-/blob/main/Approval.txt')
+            response = requests.get('-https://github.com/milanhwre/APPROVEL-.git/blob/main/Approval.txt')
             if response.status_code == 200:
                 data = response.text
                 if unique_key in data:
